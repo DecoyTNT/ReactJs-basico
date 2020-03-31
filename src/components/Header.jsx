@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Header() {
-    return <h1 className="encabezado">Tienda Virtual</h1>;
+function Header({ titulo }) {
+    return <h1 className="encabezado">{titulo}</h1>;
 }
 
 export default Header;
