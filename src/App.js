@@ -26,7 +26,7 @@ function App() {
             {productos.map(producto => (
                 <Producto key={producto.id} producto={producto} productos={productos} carrito={carrito} agregarProducto={agregarProducto} />
             ))}
-            <Carrito carrito={carrito} />
+            <Carrito carrito={carrito} agregarProducto={agregarProducto} />
             <Footer fecha={fecha} />
         </Fragment>
     );
